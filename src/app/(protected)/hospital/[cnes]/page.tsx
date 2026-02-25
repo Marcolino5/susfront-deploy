@@ -234,7 +234,7 @@ export default function HospitalPage({
                 <Field
                   name="data_inicio"
                   className="bg-gray-300 h-8 rounded p-2"
-                  placeholder="YYYY/MM/DD"
+                  placeholder="MM-YYYY"
                 />
               </div>
 
@@ -243,7 +243,7 @@ export default function HospitalPage({
                 <Field
                   name="data_fim"
                   className="bg-gray-300 h-8 rounded p-2"
-                  placeholder="YYYY/MM/DD"
+                  placeholder="MM-YYYY"
                 />
               </div>
 
@@ -252,7 +252,7 @@ export default function HospitalPage({
                 <Field
                   name="fim_correcao"
                   className="bg-gray-300 h-8 rounded p-2"
-                  placeholder="YYYY/MM/DD"
+                  placeholder="MM-YYYY"
                 />
               </div>
 
@@ -261,7 +261,7 @@ export default function HospitalPage({
                 <Field
                   name="citacao"
                   className="bg-gray-300 h-8 rounded p-2"
-                  placeholder="YYYY/MM/DD"
+                  placeholder="MM-YYYY"
                 />
               </div>
 
@@ -270,7 +270,7 @@ export default function HospitalPage({
                 <Field
                   name="distribuicao"
                   className="bg-gray-300 h-8 rounded p-2"
-                  placeholder="YYYY/MM/DD"
+                  placeholder="MM-YYYY"
                 />
               </div>
             </div>
