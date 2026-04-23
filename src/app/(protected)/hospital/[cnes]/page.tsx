@@ -49,6 +49,7 @@ export default function HospitalPage({
     fim_correcao: string;
     citacao: string;
     distribuicao: string;
+    modo: string;
   }) {
     /*
     const err = validate_new_laudo_data(data);
@@ -186,6 +187,7 @@ export default function HospitalPage({
             fim_correcao: "",
             citacao: "",
             distribuicao: "",
+            modo: "DEFAULT",
           }}
         >
           <Form className="self-center min-w-80 w-fit bg-white flex flex-col p-4 gap-8 rounded-lg">
@@ -199,6 +201,18 @@ export default function HospitalPage({
                   name="n_processo"
                   className="bg-gray-300 rounded h-8 w-60 p-2"
                 ></Field>
+              </div>
+
+              <div className="flex flex-col">
+                <label htmlFor="modo">Dados:</label>
+                <Field
+                  component="select"
+                  name="modo"
+                  className="bg-gray-300 rounded h-8 p-2"
+                >
+                  <option value="DEFAULT">Padrão</option>
+                  <option value="BRUTE">Brutos</option>
+                </Field>
               </div>
 
               <div className="flex flex-col">
